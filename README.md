@@ -1,64 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio
 
-> One paragraph statement about the project.
+> Building a Captone-project to review the things learned so as to show an understanding of all things learned.
 
-![screenshot](./app_screenshot.png)
+
+
+![screenshot](capstone.png)
+
+## Live link
+[Click here to see project](https://tchilo.github.io/Portfolio/)
 
 Additional description about the project and its features.
 
 ## Built With
 
 - Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- HTML
+- JavaScript
+- CSS
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**To get a copy of this repo into your local machine run the following command:**
+```
+git clone https://github.com/Tchilo/the-portal-capstone 
+cd the-portal-capstone
+in visual studio code you can click the go live button to view it live in the browser.
+```
+
+## Author
+
+👤 **Taro Chilongoshi**
+
+- GitHub: [@Tchilo](https://github.com/Tchilo)
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
@@ -66,10 +48,8 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by
+[Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 📝 License
 

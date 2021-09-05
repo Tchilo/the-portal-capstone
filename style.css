@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -21,7 +22,7 @@ html {
 
 .second-nav i {
   font-size: 30px;
-  margin:12px 0 20px 15px ;
+  margin: 12px 0 20px 15px;
   color: #272a31;
 }
 
@@ -83,7 +84,7 @@ html {
   margin-bottom: 15px;
 }
 
-.program p{
+.program p {
   color: #fff;
 }
 
@@ -93,13 +94,13 @@ html {
 }
 
 .program li {
-display: flex;
-margin: 10px auto;
-padding: 10px;
-align-items: center;
-width: 95%;
-background-color: #3d3a3a7c;
-gap: 20px;
+  display: flex;
+  margin: 10px auto;
+  padding: 10px;
+  align-items: center;
+  width: 95%;
+  background-color: #3d3a3a7c;
+  gap: 20px;
 }
 
 .program-head {
@@ -116,8 +117,8 @@ gap: 20px;
 }
 
 .li-of-speakers li {
-display: flex;
-margin-bottom: 20px;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .li-of-speakers img {
@@ -132,7 +133,7 @@ span {
 }
 
 .speakers {
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .line-t {
@@ -143,7 +144,6 @@ span {
 .more {
   background-color: #fff;
   padding: 20px 128px;
-
 }
 
 .break {

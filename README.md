@@ -9,7 +9,7 @@
 ![screenshot](capstone.png)
 
 ## Live link
-[Click here to see project](https://tchilo.github.io/Portfolio/)
+[Click here to see project](https://tchilo.github.io/the-portal-capstone/)
 
 Additional description about the project and its features.
 

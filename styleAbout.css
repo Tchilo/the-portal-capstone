@@ -180,4 +180,48 @@ body {
     padding: 70px 70px;
     font-size: 32px;
   }
+
+  .container-head {
+    border: solid 1px #d3d3d3;
+  }
+
+  .menu-lis {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 30px;
+    height: 9vh;
+    justify-content: flex-end;
+  }
+
+  .navbar {
+    margin-right: 60px;
+  }
+
+  .menu-lis li {
+    margin-top: 0;
+    margin-right: 30px;
+  }
+
+  .menu-lis a {
+    color: #272a31;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .menu-lis a:hover {
+    color: #ec5242;
+  }
+
+  .main-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .partner-li {
+    list-style: none;
+  }
 }

@@ -1,0 +1,178 @@
+.brain-logo {
+  width: 10%;
+}
+
+.first-page {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-image: url('images/bg-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.please {
+  margin: 12px;
+}
+
+.bg-ff {
+  background-color: #fff;
+  border: solid 1px #d3d3d3;
+  margin: 12px;
+  padding: 12px;
+}
+
+.meeting {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.meeting img {
+  width: 80%;
+}
+
+.events {
+  display: flex;
+  justify-content: center;
+}
+
+.mid {
+  display: none;
+}
+
+.program-line {
+  width: 20%;
+}
+
+.program-head {
+  font-size: 24px;
+}
+
+.speakers p {
+  padding: 15px;
+}
+
+.logo {
+  background-color: #fff;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.brain {
+  border: #d3d3d3 solid 1px;
+  padding: 20px;
+  margin: 30px;
+}
+
+.container-head {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.menu-lis {
+  background-color: #272a31;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-lis a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.menu-lis li {
+  margin-top: 30px;
+}
+
+.close {
+  color: #d3d3d3;
+  font-size: 30px;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .meeting {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .about-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .red {
+    text-align: center;
+  }
+
+  .bg-ff {
+    background-color: #fff;
+    width: 50%;
+    border: solid 1px #d3d3d3;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .events {
+    position: relative;
+    padding: 30px 0;
+  }
+
+  .events img {
+    width: 80%;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  .mid {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .events img:hover {
+    opacity: 0.3;
+  }
+
+  .mid:hover {
+    opacity: 0.5;
+  }
+
+  .text {
+    background-color: #ec5242;
+    color: #fff;
+    padding: 70px 70px;
+    font-size: 32px;
+  }
+}

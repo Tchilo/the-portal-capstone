@@ -1,6 +1,4 @@
-function grab(e) {
-  return document.querySelector(`.${e}`);
-}
+const grab = (e) => document.querySelector(`.${e}`);
 
 // ABOUT PAGE MENU
 

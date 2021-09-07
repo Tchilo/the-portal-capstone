@@ -1,11 +1,11 @@
-function grab(e, isId = false, qAll = false) {
+const grab = (e, isId = false, qAll = false) => {
   if (isId) {
     return document.getElementById(e);
   } if (qAll) {
     return document.querySelectorAll(`.${e}`);
   }
   return document.querySelector(`.${e}`);
-}
+};
 
 // OBJECET OF SPEAKERS
 
@@ -88,7 +88,6 @@ speakersTwo.forEach((el) => {
 <li>`;
 
   grab('more', false, false).addEventListener('click', () => {
-    // const check = grab('more', false, false);
     const openClose = grab('speaktwo', true);
     openClose.classList.toggle('d-none');
   });

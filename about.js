@@ -1,5 +1,5 @@
 function grab(e) {
-  return document.querySelector('.' + e);
+  return document.querySelector(`.${e}`);
 }
 
 // ABOUT PAGE MENU
